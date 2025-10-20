@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.flip-card {
+  margin: 50px auto;
+  width: 400px;
+  height: 500px;
+  perspective: 1000px; 
+}
+
+.card-body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .card-body {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+}
+
+.front {
+  background-image: url("../img/pic.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  color: #fff;
+  padding: 30px;
+}
+
+.text h3 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  width: 50%;
+}
+
+.text i {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 8px 10px;
+  font-size: 14px;
+  margin-left: 90%;
+  
+}
+
+.back {
+  background-color: #fff;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.content {
+  text-align: left;
+  color: #0e1635;
+}
+
+.content i {
+  font-size: 50px;
+  color: #1ea7c7;
+  margin-bottom: 15px;
+}
+
+.content h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.content p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.btn{
+    margin-top: 80%;
+}
+
+.btn button {
+  background: none;
+  border: none;
+  color: #1ea7c7;
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.btn i {
+  border: 2px solid #1ea7c7;
+  border-radius: 50%;
+  padding: 4px 8px;
+  margin-left: 8px;
+}

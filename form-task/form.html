@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="div-style">
+            <h1>LET'S CHAT</h1>
+            <p>wheather you have a question, want to start a project or simply want to connect</p>
+            <p>feel free to send me a message in the contact form</p>
+        </div><div class="contact">
+            <h2>contact</h2><br>
+            <form action="#" method="post" onsubmit="event.preventDefault(); alert('form submitted(demo)')">
+
+                <label for="required">*Required</label>
+
+                <div>
+                    <input id="name" name="Name" type="text" placeholder="Name *" required>
+                </div>
+
+                <div>
+                    <input id="email" name="email" type="email" placeholder="Email *" required>
+                </div>
+
+                <div>
+                    <input id="company" name="Company" type="text" placeholder="Company" required>
+                </div>
+
+                <div>
+                    <input id="phone" name="Phone" type="text" placeholder="Phone" required>
+                </div>
+
+                <div>
+                    <textarea id="mmessage" name="Message" placeholder="Message"></textarea>
+                </div>
+            </form>
+            <form onsubmit="event.preventDefault(); alert('Form Submitted!');">
+              <div class="submit-wrap">    
+             <button class="submit" type="submit">SUBMIT</button>
+         </div>
+             </form>
+
+        </div>
+    </div>
+</body>
+
+</html>

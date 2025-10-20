@@ -1,0 +1,548 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 2% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    color: rgb(39, 39, 39);
+    font-weight: 500;
+}
+
+.bts-bar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.bts-bar button {
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(39, 39, 39);
+}
+
+.orange {
+    background-color: rgb(241, 184, 78);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.hero-section {
+  position: relative;
+  background: url('../IMG/hero.png') ;
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  margin-bottom: 20px;
+  width: 60%;
+  font-size: 55px;
+  font-weight: bolder;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-form {
+  background: #fff;
+  padding: 10px;
+ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-group i {
+  position: absolute;
+  left: 10px;
+  color: #aaa;
+}
+
+.input-group input {
+  padding: 10px 10px 10px 35px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  width: 220px;
+}
+
+.btn-search {
+  background-color: #f1b84e;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.arrow-icon{
+    color: #aaa;
+    height: 20%;
+    font-size:15px;
+    font-weight: lighter;
+    margin-top: 160px;
+}
+
+ h4{
+    writing-mode: vertical-lr;
+ }
+
+.contact-info{
+   background-color: #f1b84e;
+   width: 65%; 
+   padding: 30px;
+   margin-top: 38.2%;
+   margin-right: 9.4%;
+   font-size: 25px;
+   font-weight: bolder;
+   gap: 25px;
+}
+
+.contact-info i{
+    color: white;
+}
+
+.phone-box{
+    gap: 10px;
+}
+
+.location-box{
+    gap: 10px;
+}
+
+.left-card{
+    width: 48%;
+    padding: 8%;
+}
+
+h5{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.left-card p{
+    color: #aaa;
+    padding-top: 30px;
+}
+
+.right{
+  display: flex;
+  flex-wrap: wrap; /* يخلي الكروت تنزل في صفين */
+  gap: 20px;
+  width: 50%;
+  justify-content: center;
+}
+
+
+.card{
+    background-color: #edececdc;
+    justify-content: center;
+    text-align: center;
+    padding: 35px;
+    width: calc(50% - 20px); /* كرتين في الصف */
+
+}
+
+h2{
+    color: #f1b84e;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+.card-build {
+  background-color: #d5d3d335;
+  padding: 5%;
+}
+
+.card-build h5 {
+  width: 40%;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px; /* المسافة بين الكروت */
+  margin-bottom: 50px; /* المسافة بين الصفين */
+}
+
+.card-box {
+  width: 26%;
+  background-color: #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-box img {
+  width: 100%;
+  display: block;
+}
+
+.details {
+  background-color: #fff;
+  padding: 25px; 
+}
+
+.details h6 {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.ptiecs h2 {
+  font-size: 18px; 
+}
+
+.icons {
+  color: #aaa;
+  gap: 8px;
+  margin-left: 120px;
+ }
+
+ .more button{
+    margin-left: 250px;
+    text-decoration: none;
+    background:white;
+    padding: 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(39, 39, 39);
+ }
+
+ .contant{
+    padding-top: 5%;
+    width: 35%;
+ }
+
+ .contant p{
+    color: #aaa;
+ }
+
+.cards {
+  display: flex;
+  margin-top: 40px;
+  gap: 10px;
+}
+
+.no-card {
+  width: 35%;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.num-content img{
+    position: absolute;
+    left: -25%;
+    top: -48%;
+}
+
+.details-num{
+padding-top: 35%;
+}
+
+h6{
+    font-size: 25px;
+}
+.details-num p{
+    color: #aaa;
+}
+.services-con{
+    padding:10% ;
+}
+
+.title{
+    width: 30%;
+}
+
+.title h5{
+    margin-bottom: 10px;
+}
+ 
+.left-img img{
+    width: 100%;
+    height: 75vh;
+}
+
+.text-right{
+    width: 30%;
+}
+
+.text-right h5{
+   margin-bottom: 15px;
+}
+
+.services-con p{
+    color: #aaa;
+}
+
+.agent{
+    background-color: #edececdc;
+    height: 100vh;
+}
+
+
+
+.awesome-adds-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.awesome-adds-section .container {
+    margin-bottom: 70px; 
+    align-items: center; /* توسيط عمودي للعناصر */
+    justify-content: space-between;
+}
+
+/* الترتيب المتبادل */
+.awesome-adds-section .reverse-block {
+    /* لعكس ترتيب الصورة والنص: الصورة لليمين والنص لليسار */
+    flex-direction: row-reverse; 
+}
+
+
+/* الأنماط المشتركة لكتل الإضافة */
+.add-image-box {
+    width: 48%;
+    position: relative;
+    /* لتصحيح التباعد في الترتيب العكسي */
+    margin: 0; 
+}
+
+.add-image-box img {
+    width: 100%;
+    display: block;
+    height: 400px; 
+    object-fit: cover;
+}
+
+.add-text-content {
+    width: 48%;
+    /* تم إزالة الـ padding-top: 50px; ليتوسط النص عمودياً مع الصورة */
+    padding: 0 20px; 
+}
+
+.add-text-content h6 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.add-text-content p {
+    color: #888;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+/* الأنماط الخاصة بصندوق الموقع الأصفر */
+.location-tag {
+    position: absolute;
+    bottom: 20px;
+    /* نستخدم flexbox لتحديد الموقع بالنسبة لـ add-image-box */
+    left: 50%;
+    transform: translateX(-50%); /* لتوسيطه أفقياً */
+    
+    background-color: #f1b84e; 
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.location-tag i {
+    color: #333;
+    margin-right: 10px;
+}
+
+.location-tag p {
+    margin: 0;
+    color: #333;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* زر "Show Me More" */
+.show-more-btn {
+    background-color: #34495e; 
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.show-more-btn:hover {
+    background-color: #2c3e50;
+}
+
+
+/* -------------------------------------- */
+/* 10. Footer Section */
+/* -------------------------------------- */
+.main-footer {
+    background-color: #274747; /* لون الخلفية الداكن */
+    color: #fff;
+    padding-top: 50px;
+}
+
+.footer-top {
+    justify-content: space-between;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    align-items: flex-start;
+}
+
+.footer-top .footer-logo-title .logo {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.footer-top .footer-logo-title p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* تنسيق نموذج الاشتراك في النشرة الإخبارية */
+.newsletter-form {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex; /* لضمان أن الزر بجوار مربع الإدخال */
+}
+
+.newsletter-form input {
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    width: 300px;
+    outline: none;
+    color: #333;
+}
+
+.newsletter-form button {
+    background-color: #fff;
+    border: none;
+    color: #333;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-left: 1px solid #ddd; /* خط فاصل بسيط */
+}
+
+/* تنسيق الجزء السفلي من الفوتر */
+.footer-bottom {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-copyright {
+    width: 20%;
+}
+
+.footer-copyright .logo {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.footer-copyright p {
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.5;
+}
+
+.footer-links-grid {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col {
+    width: 20%;
+}
+
+.footer-col h6 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: #f1b84e; /* لون التمييز الأصفر */
+}
