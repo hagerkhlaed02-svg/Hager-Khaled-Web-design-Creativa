@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.road img{
+    width: 100%;
+    position: relative;
+}
+
+.car img{
+    width: 25%;
+    position: absolute;
+    top: 80px;
+    margin-left: 70%; 
+    animation-name:changePosition; 
+    animation-iteration-count: infinite;
+    animation-duration: 2s; 
+    transition-timing-function: linear; 
+}
+
+@keyframes changePosition {
+ from{
+    transform: translateX(0);
+ }   
+to{
+    transform: translateX(-1500px);
+}
+
+}
+

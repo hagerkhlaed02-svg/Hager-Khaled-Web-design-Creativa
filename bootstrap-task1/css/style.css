@@ -1,0 +1,66 @@
+:root {
+    --text-muted-color: #888;
+    --primary-badge-color: #4CAF50;
+    --overlay-color: rgba(0, 0, 0, 0.55);
+}
+.active-tab-custom {
+    background-color: transparent !important;
+    color: #000 !important;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    border-radius: 0;
+}
+.hover-dark-custom:hover {
+    color: #000 !important;
+}
+.bg-info-custom {
+    background-color: var(--primary-badge-color) !important;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+}
+.custom-img-lg {
+    height: 250px; 
+    object-fit: cover;
+}
+.custom-img-sm {
+    height: 80px;
+    width: 100px;
+    object-fit: cover;
+}
+.custom-story-img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 4px !important;
+}
+.custom-img-pick {
+    height: 300px;
+    object-fit: cover;
+}
+.custom-img-bottom {
+    height: 200px; 
+    object-fit: cover;
+}
+.text-muted-custom {
+    color: var(--text-muted-color) !important;
+    font-size: 0.75rem;
+}
+.text-muted-custom-light {
+    color: rgba(255, 255, 255, 0.7) !important; 
+    font-size: 0.75rem;
+}
+.custom-overlay-bg {
+    background-color: var(--overlay-color);
+}
+.social-btn-custom {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.social-btn-custom:hover {
+    filter: brightness(1.1);
+}
+.text-gray-700{
+  color: #495057 !important;
+}
