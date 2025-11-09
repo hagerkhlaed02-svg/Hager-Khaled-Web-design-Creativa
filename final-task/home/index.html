@@ -1,0 +1,1180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clinic</title>
+    <link rel="icon" type="image/png" href="../img/work-01.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+        <div class="container py-2">
+            <a class="navbar-brand" href="#">
+                <img src="../img/logo.svg" alt="logo" width="120">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 bar-text">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" data-bs-toggle="dropdown">Home</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Main Page</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" data-bs-toggle="dropdown">Doctors</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../dashboard/dashboard.html">Doctor Dashboard</a></li>
+                            <li><a class="dropdown-item" href="#">Appointments</a></li>
+                            <li><a class="dropdown-item" href="#">Patients List</a></li>
+                            <li><a class="dropdown-item" href="../profile sitting/style.html">Profile sitting</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" data-bs-toggle="dropdown">Patients</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../patient/patient.html">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Invoices</a></li>
+                            <li><a class="dropdown-item" href="#">Chat</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" data-bs-toggle="dropdown">Clinic</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Available Timing</a></li>
+                            <li><a class="dropdown-item" href="#">Reviews</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" data-bs-toggle="dropdown">Pharmacy</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Medicines</a></li>
+                            <li><a class="dropdown-item" href="#">Orders</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" data-bs-toggle="dropdown">Blog</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Articles</a></li>
+                            <li><a class="dropdown-item" href="#">News</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="ms-lg-4 mt-3 mt-lg-0">
+                    <button class="btn bg-dark text-white rounded-pill px-4">Register</button>
+                    <button class="btn gradiant text-white rounded-pill px-4">Login</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ======= Hero Section ======= -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 mb-4 mb-lg-0 text-center text-lg-start">
+                    <h2 class="fw-bold mb-3">
+                        Consult <span class="text-primary">Best Doctors</span> Your Nearby Location.
+                    </h2>
+                    <p class="text-muted mb-4">
+                        Embark on your healing journey with Doccure
+                    </p>
+                    <button class="btn gradiant text-white rounded-pill px-4 p-3">
+                        Start a Consult
+                    </button>
+                    <img src="../img/down-arrow-img.png" alt="">
+                </div>
+                <div
+                    class="col-md-6 text-end position-relative col-lg-6 col-md-12 position-relative text-center d-none d-lg-block">
+                    <div class="images">
+                        <img src="../img/01.jpg" alt="doctor" class="img-fluid">
+                    </div>
+
+                    <div class="form-check d-flex ">
+                        <img src="../img/banner-img1.svg" alt="">
+                        <img src="../img/banner-img2.svg" alt="">
+                    </div>
+                </div>
+                <div class="form-search shadow-sm rounded-3 p-3 bg-white col-lg-8 col-md-10 col-12 mx-auto">
+                    <form class="row g-2 align-items-center">
+
+                        <div class="col-md-4 col-12">
+                            <input type="text" class="form-control border-0 py-3 shadow-none"
+                                placeholder="Search doctors, clinics, hospitals, etc">
+                        </div>
+
+                        <div class="col-md-3 col-12">
+                            <input type="text" class="form-control border-0 py-3 shadow-none" placeholder="Location">
+                        </div>
+
+                        <div class="col-md-3 col-12">
+                            <input type="text" class="form-control border-0 py-3 shadow-none" placeholder="From">
+                        </div>
+
+                        <div class="col-md-2 col-12">
+                            <button type="submit"
+                                class="w-100 py-3 fw-semibold btn gradiant text-white rounded-pill px-4">
+                                Search
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- Scroll To Top Button -->
+    <div id="scrollToTop">
+    <svg class="progress-ring" width="60" height="60">
+      <circle class="progress-ring__circle" stroke="#0d6efd" stroke-width="4" fill="transparent" r="26" cx="30" cy="30"/>
+    </svg>
+    <i class="fa-solid fa-arrow-up"></i>
+  </div>
+
+    <section class="cards-img py-5">
+        <div class="container">
+            <div class="row justify-content-center g-4">
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 cards-img">
+                    <div class="card text-center border-0 shadow-sm h-100 p-3 transition">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img src="../img/service-07.svg"
+                                class="card-img-top w-50 bg-danger-subtle rounded-circle p-2 transition" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-5">Home Care</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 cards-img">
+                    <div class="card text-center border-0 shadow-sm h-100 p-3 transition">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img src="../img/service-05.svg" class="card-img-top w-50 p-2 transition" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-5">Health Care Services</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 cards-img">
+                    <div class="card text-center border-0 shadow-sm h-100 p-3 transition">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img src="../img/service-06.svg" class="card-img-top w-50 p-2 transition" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-5">Talk to Doctor’s</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 cards-img">
+                    <div class="card text-center border-0 shadow-sm h-100 p-3 transition">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img src="../img/service-03.svg" class="card-img-top w-50  p-2 transition" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-5">Medicines & Supplies</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 cards-img">
+                    <div class="card text-center border-0 shadow-sm h-100 p-3 transition">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img src="../img/service-04.svg" class="card-img-top w-50 p-2 transition" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-5">Hospitals / Clinics</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 cards-img">
+                    <div class="card text-center border-0 shadow-sm h-100 p-3 transition">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img src="../img/service-01.svg" class="card-img-top w-50 p-2 transition" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-5">Book Appointment</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="Specialities mt-5 pt-5 row justify-content-center g-4 cards-icon">
+                    <div class="d-flex justify-content-between align-items-center">
+
+                        <div class="title d-flex align-items-center gap-3 ">
+                            <h2 class="fw-bold mb-0">Specialities</h2>
+                            <img src="../img/header-icon.svg" alt="">
+                        </div>
+
+                        <!-- <div class="arrows d-flex align-items-center gap-5">
+                            <i class="fa-solid fa-chevron-left fs-3 fw-bold"></i>
+                            <i class="fa-solid fa-chevron-right fs-3 fw-bold"></i>
+                        </div> -->
+                    </div>
+
+                    <div class="row justify-content-center g-4 cards-icon">
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                            <!-- <div class="card text-center border-0 shadow-sm h-100 p-3">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <div
+                                        class="bg-info bg-opacity-25 rounded-circle d-flex justify-content-center align-items-center icon-wrapper">
+                                        <img src="../img/specialities-01.svg" class="img-fluid w-50 p-2"
+                                            alt="Cardiology">
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text fw-bold fs-5">Cardiology</p>
+                                </div>
+                            </div> -->
+                        </div>
+
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 cards-icon">
+                            <!-- <div class="card text-center border-0 shadow-sm h-100 p-3">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <div
+                                        class="bg-info bg-opacity-25 rounded-circle d-flex justify-content-center align-items-center icon-wrapper">
+                                        <img src="../img/specialities-02.svg" class="img-fluid w-50 p-2"
+                                            alt="Neurology">
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text fw-bold fs-5">Neurology</p>
+                                </div>
+                            </div> -->
+                        </div>
+
+
+
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 cards-icon">
+                            <!-- <div class="card text-center border-0 shadow-sm h-100 p-3">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <div
+                                        class="bg-info bg-opacity-25 rounded-circle d-flex justify-content-center align-items-center icon-wrapper">
+                                        <img src="../img/specialities-03.svg" class="img-fluid w-50 p-2"
+                                            alt="Neurology">
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text fw-bold fs-5">Urology</p>
+                                </div>
+                            </div> -->
+                        </div>
+
+
+
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 cards-icon">
+                            <!-- <div class="card text-center border-0 shadow-sm h-100 p-3">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <div
+                                        class="bg-info bg-opacity-25 rounded-circle d-flex justify-content-center align-items-center icon-wrapper">
+                                        <img src="../img/specialities-04.svg" class="img-fluid w-50 p-2"
+                                            alt="Neurology">
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text fw-bold fs-5">Orthopedic</p>
+                                </div>
+                            </div> -->
+                        </div>
+
+
+
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 cards-icon">
+                            <!-- <div class="card text-center border-0 shadow-sm h-100 p-3">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <div
+                                        class="bg-info bg-opacity-25 rounded-circle d-flex justify-content-center align-items-center icon-wrapper">
+                                        <img src="../img/specialities-05.svg" class="img-fluid w-50 p-2"
+                                            alt="Neurology">
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text fw-bold fs-5">Dentist</p>
+                                </div>
+                            </div> -->
+                        </div>
+
+
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 cards-icon">
+                            <!-- <div class="card text-center border-0 shadow-sm h-100 p-3">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <div
+                                        class="bg-info bg-opacity-25 rounded-circle d-flex justify-content-center align-items-center icon-wrapper">
+                                        <img src="../img/specialities-06.svg" class="img-fluid w-50 p-2"
+                                            alt="Neurology">
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text fw-bold fs-5">Ophthlmlgy</p>
+                                </div>
+                            </div> -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="owl-carousel">
+                <div>
+                    <div class="card text-center border-0 shadow-sm h-100 p-3">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div
+                                class="bg-info bg-opacity-25 rounded-circle d-flex justify-content-center align-items-center icon-wrapper">
+                                <img src="../img/specialities-01.svg" class="img-fluid w-50 p-2" alt="Cardiology">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-5">Cardiology</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center border-0 shadow-sm h-100 p-3">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div
+                                class="bg-info bg-opacity-25 rounded-circle d-flex justify-content-center align-items-center icon-wrapper">
+                                <img src="../img/specialities-02.svg" class="img-fluid w-50 p-2" alt="Neurology">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-5">Neurology</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center border-0 shadow-sm h-100 p-3">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div
+                                class="bg-info bg-opacity-25 rounded-circle d-flex justify-content-center align-items-center icon-wrapper">
+                                <img src="../img/specialities-03.svg" class="img-fluid w-50 p-2" alt="Neurology">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-5">Urology</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center border-0 shadow-sm h-100 p-3">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div
+                                class="bg-info bg-opacity-25 rounded-circle d-flex justify-content-center align-items-center icon-wrapper">
+                                <img src="../img/specialities-04.svg" class="img-fluid w-50 p-2" alt="Neurology">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-5">Orthopedic</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center border-0 shadow-sm h-100 p-3">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div
+                                class="bg-info bg-opacity-25 rounded-circle d-flex justify-content-center align-items-center icon-wrapper">
+                                <img src="../img/specialities-06.svg" class="img-fluid w-50 p-2" alt="Neurology">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-5">Ophthlmlgy</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center border-0 shadow-sm h-100 p-3">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div
+                                class="bg-info bg-opacity-25 rounded-circle d-flex justify-content-center align-items-center icon-wrapper">
+                                <img src="../img/specialities-05.svg" class="img-fluid w-50 p-2" alt="Neurology">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-5">Dentist</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center mt-5 justify-content-center d-flex">
+                <button class="btn gradiant text-white rounded-pill px-4">See All Specialities</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="doctors bg-primary bg-opacity-10 py-5">
+        <div class="container">
+
+            <div class="d-flex justify-content-center align-items-center mb-4">
+                <h2 class="fw-bold mb-0 me-2">Best Doctors</h2>
+                <img src="../img/header-icon.svg" alt="">
+            </div>
+
+
+            <div class="row g-4 pt-5">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                        <img src="../img/doctor-03.jpg" class="card-img-top" alt="Doctor Image">
+                        <div class="card-body text-start">
+                            <div class="rate d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title mb-0 fw-bold">Dr. Downer</h5>
+                                <div class="d-flex align-items-center bg-warning px-2 py-1 rounded-3">
+                                    <i class="fa-solid fa-star text-white me-1"></i>
+                                    <p class="mb-0 text-white fw-semibold small">4.5</p>
+                                </div>
+                            </div>
+                            <p class="text-muted mb-1">Orthopedic</p>
+                            <hr class="my-2">
+                            <p class="text-secondary mb-0">
+                                <i class="fa-solid fa-location-dot me-2 text-primary"></i>New York, USA
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                        <img src="../img/doctor-02.jpg" class="card-img-top" alt="Doctor Image">
+                        <div class="card-body text-start">
+                            <div class="rate d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title mb-0 fw-bold">Dr. Downer</h5>
+                                <div class="d-flex align-items-center bg-warning px-2 py-1 rounded-3">
+                                    <i class="fa-solid fa-star text-white me-1"></i>
+                                    <p class="mb-0 text-white fw-semibold small">4.5</p>
+                                </div>
+                            </div>
+                            <p class="text-muted mb-1">Orthopedic</p>
+                            <hr class="my-2">
+                            <p class="text-secondary mb-0">
+                                <i class="fa-solid fa-location-dot me-2 text-primary"></i>New York, USA
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                        <img src="../img/doctor-05.jpg" class="card-img-top" alt="Doctor Image">
+                        <div class="card-body text-start">
+                            <div class="rate d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title mb-0 fw-bold">Dr. Downer</h5>
+                                <div class="d-flex align-items-center bg-warning px-2 py-1 rounded-3">
+                                    <i class="fa-solid fa-star text-white me-1"></i>
+                                    <p class="mb-0 text-white fw-semibold small">4.5</p>
+                                </div>
+                            </div>
+                            <p class="text-muted mb-1">Orthopedic</p>
+                            <hr class="my-2">
+                            <p class="text-secondary mb-0">
+                                <i class="fa-solid fa-location-dot me-2 text-primary"></i>New York, USA
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                        <img src="../img/doctor-04.jpg" class="card-img-top" alt="Doctor Image">
+                        <div class="card-body text-start">
+                            <div class="rate d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title mb-0 fw-bold">Dr. Downer</h5>
+                                <div class="d-flex align-items-center bg-warning px-2 py-1 rounded-3">
+                                    <i class="fa-solid fa-star text-white me-1"></i>
+                                    <p class="mb-0 text-white fw-semibold small">4.5</p>
+                                </div>
+                            </div>
+                            <p class="text-muted mb-1">Orthopedic</p>
+                            <hr class="my-2">
+                            <p class="text-secondary mb-0">
+                                <i class="fa-solid fa-location-dot me-2 text-primary"></i>New York, USA
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing py-5">
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center mb-4">
+                <h2 class="fw-bold p-4">Our Pricing Plans</h2>
+                <img src="../img/header-icon.svg" alt="">
+            </div>
+            <div class="row justify-content-center g-5 p-3">
+
+                <div class="col-md-4 small-card">
+                    <div class="card bg-primary bg-opacity-10 p-3 h-100">
+                        <div class="card-body">
+                            <div class="d-flex mb-3">
+                                <div
+                                    class="icon-circle bg-light rounded-3 d-flex justify-content-center align-items-center p-3">
+                                    <img src="../img/price-icon1.svg" class="w-100" alt="...">
+                                </div>
+                                <h5 class="card-title fs-3 ps-3 pt-2 mb-0">Basic</h5>
+                            </div>
+                            <div class="d-flex align-items-baseline mb-3">
+                                <h6 class="fw-bold fs-1 mb-0">$99</h6>
+                                <p class=" ms-2">/monthly</p>
+                            </div>
+                            <h3 class="fw-bold pt-2 fs-5">What's included</h3>
+                            <ul class="text-body-secondary p-2 list-unstyled">
+                                <li>Profile Creation</li>
+                                <li>Appointment Booking</li>
+                                <li>Notification Alerts</li>
+                                <li>Limited Telemedicine Access</li>
+                            </ul>
+                            <button class="btn gradiant text-white rounded-pill px-5 py-2 w-100 mt-3">Choose
+                                Plan</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-primary text-white p-4 shadow-lg bg-opacity-50" style="transform: scale(1.1);">
+                        <div class="card-body">
+                            <div class="d-flex mb-3">
+                                <div class="bg-light d-flex justify-content-center align-items-center p-3 rounded-3">
+                                    <img src="../img/price-icon2.svg" class="w-75" alt="...">
+                                </div>
+                                <h5 class="card-title fs-3 pt-2 ps-3 mb-0 text-white">Standard</h5>
+                            </div>
+                            <div class="d-flex align-items-baseline mb-3">
+                                <h6 class="fw-bold fs-1 mb-0 text-white">$199</h6>
+                                <p class="text-white ms-2">/monthly</p>
+                            </div>
+                            <h3 class="fw-bold pt-2 fs-5 text-white">What's included</h3>
+                            <ul class="p-2 list-unstyled text-white">
+                                <li>Everything in Basic</li>
+                                <li>Unlimited Bookings</li>
+                                <li>Priority Support</li>
+                                <li>Video Consultations</li>
+                            </ul>
+                            <button class="btn btn-light rounded-pill px-5 py-2 w-100 mt-3">Choose Plan</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 small-card">
+                    <div class="card bg-primary bg-opacity-10 p-3 h-100">
+                        <div class="card-body ">
+                            <div class="d-flex mb-3">
+                                <div
+                                    class=" icon-circle bg-light d-flex justify-content-center align-items-center p-3 rounded-3">
+                                    <img src="../img/price-icon3.svg" class="w-75" alt="...">
+                                </div>
+                                <h5 class="card-title fs-3 pt-2 ps-3 mb-0">Premium</h5>
+                            </div>
+                            <div class="d-flex align-items-baseline mb-3">
+                                <h6 class="fw-bold fs-1 mb-0">$299</h6>
+                                <p class="ms-2">/monthly</p>
+                            </div>
+                            <h3 class="fw-bold pt-2 fs-5">What's included</h3>
+                            <ul class="text-body-secondary p-2 list-unstyled">
+                                <li>All Standard Features</li>
+                                <li>24/7 Support</li>
+                                <li>Custom Reports</li>
+                                <li>Full Data Access</li>
+                            </ul>
+                            <button class="btn gradiant text-white rounded-pill px-5 py-2 mt-3 w-100">Choose
+                                Plan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="steps">
+        <div class="bg-primary bg-opacity-10">
+            <div class="container p-5">
+                <div class="row align-items-start">
+
+
+                    <div class="col-lg-5 col-md-12 mb-4 mb-lg-0">
+                        <img src="../img/work-img.png" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-7 col-md-12 ps-lg-5 pt-3">
+                        <div class="section-header-one">
+                            <h5 class="text-primary fw-bold ps-5">How it works</h5>
+                            <div class="d-flex align-items-center gap-2 flex-wrap ps-5">
+                                <h2 class="section-tittle fw-bold mb-0 ">
+                                    4 easy steps to get your solution
+                                </h2>
+                                <img src="../img/header-icon.svg" alt="">
+                            </div>
+
+                            <div class="row g-4 text-icon p-5">
+
+                                <div class="col-lg-6 col-md-6 p-4 ">
+                                    <div class="work-info d-flex align-items-center">
+                                        <div
+                                            class="work-icon bg-primary bg-opacity-10 rounded-3 d-flex justify-content-center align-items-center me-3">
+                                            <img src="../img/work-01.svg" class="p-3" alt="icon">
+                                        </div>
+                                        <div class="work-content">
+                                            <h5 class="fw-semibold mb-1">Search Doctor</h5>
+                                            <p class="mb-0 text-muted fw-semibold">Search for a doctor based on
+                                                specialization, location, or availability.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6  p-4">
+                                    <div class="work-info d-flex align-items-center">
+                                        <div
+                                            class="work-icon bg-primary bg-opacity-10 rounded-3 d-flex justify-content-center align-items-center me-3">
+                                            <img src="../img/work-02.svg" class="p-3" alt="icon">
+                                        </div>
+                                        <div class="work-content">
+                                            <h5 class="fw-semibold mb-1">Schedule Appointment</h5>
+                                            <p class="mb-0 text-muted fw-semibold">Book your appointment easily with a
+                                                few clicks.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6  p-4">
+                                    <div class="work-info d-flex align-items-center">
+                                        <div
+                                            class="work-icon bg-primary bg-opacity-10 rounded-3 d-flex justify-content-center align-items-center me-3">
+                                            <img src="../img/work-03.svg" class="p-3" alt="icon">
+                                        </div>
+                                        <div class="work-content">
+                                            <h5 class="fw-semibold mb-1">Consult Online</h5>
+                                            <p class="mb-0 text-muted fw-semibold">Get professional consultation
+                                                directly from your device.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6  p-4 ">
+                                    <div class="work-info d-flex align-items-center">
+                                        <div
+                                            class="work-icon bg-primary bg-opacity-10 rounded-3 d-flex justify-content-center align-items-center me-3">
+                                            <img src="../img/work-04.svg" class="p-3" alt="icon">
+                                        </div>
+                                        <div class="work-content">
+                                            <h5 class="fw-semibold mb-1">Get Your Solution</h5>
+                                            <p class="mb-0 text-muted fw-semibold">Receive prescriptions, advice, and
+                                                follow-up easily.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="articles py-5">
+        <div class="container">
+
+            <div class="d-flex justify-content-center align-items-center mb-4 p-5">
+                <h2 class="fw-bold mb-0 me-2">Latset Articles</h2>
+                <img src="../img/header-icon.svg" alt="">
+            </div>
+
+
+
+
+            <div class="row g-4">
+                <div class="col-lg-6 col-md-12">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-md-4 p-2 docotr-card">
+                                <img src="../img/blog-11.jpg" class="img-fluid rounded-3" alt="Doctor Blog 1">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title fw-bold doctor-content">
+                                        Navigating Telehealth: A Guide to Virtual Healthcare Visits
+                                    </h5>
+                                    <p class="card-text text-muted mt-3">
+                                        Explore the benefits & challenges of virtual healthcare appointments.
+                                    </p>
+                                    <button class="btn gradiant text-white rounded-pill px-4 py-2 mt-3">
+                                        Read More
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-md-4 p-2 docotr-card">
+                                <img src="../img/blog-12.jpg" class="img-fluid rounded-3" alt="Doctor Blog 2">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title fw-bold doctor-content">
+                                        The Future of Digital Health Records
+                                    </h5>
+                                    <p class="card-text text-muted mt-3">
+                                        Learn how digital transformation is improving patient record access.
+                                    </p>
+                                    <button class="btn gradiant text-white rounded-pill px-4 py-2 mt-3">
+                                        Read More
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-md-4 p-2 docotr-card ">
+                                <img src="../img/blog-24.jpg" class="img-fluid rounded-3" alt="Doctor Blog 3">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title fw-bold doctor-content">Understanding Preventive Medicine</h5>
+                                    <p class="card-text text-muted mt-3">
+                                        Discover how preventive medicine reduces risks and promotes wellness.
+                                    </p>
+                                    <button class="btn gradiant text-white rounded-pill px-4 py-2 mt-3">
+                                        Read More
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-md-4 p-2 docotr-card">
+                                <img src="../img/blog-25.jpg" class="img-fluid rounded-3" alt="Doctor Blog 4">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title fw-bold doctor-content">
+                                        Telemedicine for Mental Health
+                                    </h5>
+                                    <p class="card-text text-muted mt-3">
+                                        How online therapy sessions are helping patients globally.
+                                    </p>
+                                    <button class="btn gradiant text-white rounded-pill px-4 py-2 mt-3">
+                                        Read More
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="mobile">
+        <div class="container">
+            <div class="mobile-bg bg-primary bg-gradient bg-opacity-75 rounded-3">
+
+                <div class="row align-items-end d-flex">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="mobile-content text-white ps-5 ms-5 fw-bold ">
+                            <div class="header pt-5 mt-5">
+                                <h5 class=" fs-4">Working for Your Better Health.</h5>
+                                <h2 class="fs-2">Download the Doccure App today!</h2>
+                            </div>
+                            <div class="scan pt-5">
+                                <p>Scan the QR code to get the app now</p>
+                                <img src="../img/scan-img.png" alt="">
+                            </div>
+                            <div class="apps pt-5 pb-5">
+                                <img src="../img/google-play-icon.svg" alt="">
+                                <img src="../img/app-store-icon.svg" class="ps-3" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobile-img col-lg-6 pt-5">
+                        <img src="../img/mobile-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="questions pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="header-tittle">
+                        <h5 class="text-primary">Get Your Answer</h5>
+                        <div class="d-flex">
+                            <h2>Frequently Asked Questions</h2>
+                            <img src="../img/header-icon.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="image-doc pt-5 position-relative">
+                            <img src="../img/faq-img.png" alt="" class="img-fluid rounded-3">
+
+                            <!-- <div class="icon-box position-absolute d-flex justify-content-center align-items-center">
+                                <img src="../img/smiling-icon.svg" alt="" class="emoji">
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12">
+                        <div class="info ms-2">
+
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item mb-3 border-0">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button fw-bold py-3" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            How do I book an appointment with a doctor?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body fs-6 py-3">
+                                            <p>
+                                                Yes, simply visit our website and log in or create an account.
+                                                Search for a doctor based on specialization, location, or
+                                                availability & confirm your booking.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed fw-bold py-3" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            Can I request a specific doctor when booking?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Yes, you can request a specific doctor...</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed fw-bold py-3" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            What should I do if I need to reschedule?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>If you need to cancel or reschedule...</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed fw-bold py-3" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour">
+                                            What if I'm running late for my appointment?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Contact the doctor as soon as possible...</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed fw-bold py-3" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                            aria-expanded="false" aria-controls="collapseFive">
+                                            Can I book appointments for family members?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Yes, you can book for dependents easily...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section class="py-5 bg-primary bg-opacity-10 mt-5">
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row align-items-center">
+
+                            <div class="col-lg-4 text-center">
+                                <img src="../img/client-01.jpg" class="rounded-circle img-fluid" alt="Client Image"
+                                    width="250">
+                            </div>
+
+                            <div class="col-lg-8">
+                                <small class="text-primary fw-semibold">Testimonials</small>
+                                <h2 class="fw-bold mb-3">What Our Client Says</h2>
+                                <p class="lead text-muted">
+                                    Doccure exceeded my expectations in healthcare. The seamless booking process,
+                                    coupled with the expertise of the doctors, made my experience exceptional.
+                                    Their commitment to quality care and convenience truly sets them apart.
+                                </p>
+                                <h5 class="fw-bold mb-0">John Doe</h5>
+                                <small class="text-muted">New York</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-4 text-center">
+                                <img src="../img/client-03.jpg" class="rounded-circle img-fluid" alt="Client Image"
+                                    width="250">
+                            </div>
+                            <div class="col-lg-8">
+                                <small class="text-primary fw-semibold">Testimonials</small>
+                                <h2 class="fw-bold mb-3">What Our Client Says</h2>
+                                <p class="lead text-muted">
+                                    I highly recommend Doccure for anyone seeking reliable and accessible healthcare
+                                    services.
+                                    Booking and rescheduling were smooth and easy.
+                                </p>
+                                <h5 class="fw-bold mb-0">Jane Smith</h5>
+                                <small class="text-muted">Los Angeles</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-4 text-center">
+                                <img src="../img/client-11.jpg" class="rounded-circle img-fluid" alt="Client Image"
+                                    width="250">
+                            </div>
+                            <div class="col-lg-8">
+                                <small class="text-primary fw-semibold">Testimonials</small>
+                                <h2 class="fw-bold mb-3">What Our Client Says</h2>
+                                <p class="lead text-muted">
+                                    I highly recommend Doccure for anyone seeking reliable and accessible healthcare
+                                    services.
+                                    Booking and rescheduling were smooth and easy.
+                                </p>
+                                <h5 class="fw-bold mb-0">Jane Smith</h5>
+                                <small class="text-muted">Los Angeles</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-secondary rounded-circle p-3"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-secondary rounded-circle p-3 ms-3"></span>
+            </button>
+        </div>
+    </section>
+
+    <section class="partners">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col-md-12">
+                    <div class="d-flex justify-content-center align-items-center mb-4 p-5">
+                        <h2 class="fw-bold mb-0 me-2">Latset Articles</h2>
+                        <img src="../img/header-icon.svg" alt="">
+                    </div>
+                    <div class="col-md-12 d-flex justify-content-center gap-3 ">
+                        <img class="border p-3 rounded-3 shadow-sm " src="../img/partners-1.svg" alt="">
+                        <img class="border p-3 rounded-3 shadow-sm " src="../img/partners-2.svg" alt="">
+                        <img class="border p-3 rounded-3 shadow-sm " src="../img/partners-3.svg" alt="">
+                        <img class="border p-3 rounded-3 shadow-sm " src="../img/partners-4.svg" alt="">
+                        <img class="border p-3 rounded-3 shadow-sm " src="../img/partners-5.svg" alt="">
+                        <img class="border p-3 rounded-3 shadow-sm " src="../img/partners-6.svg" alt="">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="footer pt-5">
+        <div class="bg-primary bg-opacity-10 mt-5">
+            <div class="container">
+                <div class="row gy-5 pt-5">
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="logo-footer mb-3">
+                            <img src="../img/logo.svg" alt="" class="img-fluid" style="max-width: 400px;">
+                        </div>
+                        <div class="footer-content text-muted">
+                            <p> Effortlessly schedule your medical appointments with Doccure.
+                                Connect with healthcare professionals, manage appointments &
+                                prioritize your well being.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 d-flex justify-content-between">
+                        <div class="d-flex ps-2 gap-5">
+
+                            <div class="company">
+                                <h5 class="fw-bold mb-3">Company</h5>
+                                <ul class="list-unstyled text-muted">
+                                    <li class="mb-2">Home</li>
+                                    <li class="mb-2">Specialities</li>
+                                    <li class="mb-2">Video Consult</li>
+                                </ul>
+                            </div>
+
+                            <div class="specialities">
+                                <h5 class="fw-bold mb-3">Specialities</h5>
+                                <ul class="list-unstyled text-muted">
+                                    <li class="mb-2">Neurology</li>
+                                    <li class="mb-2">Cardiologist</li>
+                                    <li class="mb-2">Dentist</li>
+                                </ul>
+                            </div>
+
+                            <div class="conatct">
+                                <h5 class="fw-bold mb-3">conatct us</h5>
+                                <ul class="list-unstyled text-muted">
+                                    <li class="mb-2 d-flex"> <i class="fa-solid fa-location-dot pt-1"></i> 3556 Beech
+                                        Street, USA</li>
+                                    <li class="mb-2"> <i class="fa-solid fa-phone-volume pt-1"></i>+1 315 3693</li>
+                                    <li class="mb-2"> <i class="fa-regular fa-envelope pt-1"></i>doe@.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-12">
+                        <h6 class="fw-bold mb-3">Join Our Newsletter</h6>
+                        <form class="d-flex flex-column flex-sm-row gap-2">
+                            <input type="email" class="form-control flex-grow-1" placeholder="Enter your email">
+                            <button type="submit" class="btn bg-primary text-white py-2">
+                                submite
+                            </button>
+                        </form>
+                        <div class="d-flex pt-3 text-muted gap-2">
+                            <div class="d-flex align-items-center ps-1 bg-primary bg-opacity-10 text-muted rounded-circle"
+                                style="width:40px; height:40px;">
+                                <i class="fa-brands fa-instagram ps-2"></i>
+                            </div>
+                            <div class="d-flex align-items-center bg-primary bg-opacity-10 text-muted rounded-circle"
+                                style="width:40px; height:40px;">
+                                <i class="fa-brands fa-facebook-f ps-3"></i>
+                            </div>
+                            <div class="d-flex align-items-center  bg-primary bg-opacity-10 text-muted rounded-circle"
+                                style="width:40px; height:40px;">
+                                <i class="fa-brands fa-twitter ps-3"></i>
+                            </div>
+                            <div class="d-flex align-items-center  bg-primary bg-opacity-10 text-muted rounded-circle"
+                                style="width:40px; height:40px;">
+                                <i class="fa-brands fa-linkedin-in ps-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bar bg-primary bg-opacity-25">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center flex-wrap p-2">
+                    <div class="col-md-6">
+                        <p class="mb-0">Copyright © 2025 Doccure. All Rights Reserved</p>
+                    </div>
+                    <div class="right-side col-md-6 text-md-end">
+                        <p class="mb-0">Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

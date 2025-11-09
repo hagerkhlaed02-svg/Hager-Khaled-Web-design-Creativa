@@ -1,0 +1,241 @@
+.nav-item .dropdown-menu {
+  display: none;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.bar-text {
+  margin-right: 15%;
+  gap: 25px;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.nav-link {
+  color: #000 !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff !important;
+  text-underline-offset: 4px;
+}
+
+.gradiant {
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  border: none;
+}
+
+/* home */
+.form-check {
+  position: absolute;
+  top: 35%;
+  animation-name: myAnimation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes myAnimation {
+
+  /* from{ transform: translateY(-20px); } to{ transform: translatey(20px); } */
+  0% {
+    /* transform: translateY(-5px) */
+  }
+
+  25% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+
+  75% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+.form-search {
+  position: absolute;
+  top: 85%;
+}
+
+.cards-img .card {
+  transition: all 0.6s ease;
+}
+
+.cards-img .card img {
+  transition: transform 0.8s ease, background-color 0.6s ease;
+}
+
+.cards-img .card:hover {
+  background-color: #f9d9d9;
+
+}
+
+.cards-img .card:hover img {
+    transform: rotateY(360deg);
+}
+.icon-wrapper {
+    width: 120px;
+    height: 120px;
+    transition: all 0.4s ease;
+  }
+
+  .cards-icon .card {
+    transition: all 0.4s ease;
+  }
+
+  .cards-icon .card:hover {
+    background-color: #dde7fc; 
+  }
+
+  .cards-icon .card:hover .icon-wrapper {
+    background-color: #8ab5e2 ; 
+    background-image: linear-gradient(135deg, #007bff, #00b4ff);
+    transition: all 0.4s ease;
+  }
+
+  .cards-icon .card:hover img {
+    filter: brightness(0) invert(1);
+    transition: transform 0.4s ease, filter 0.4s ease;
+  }
+
+ .small-card .card:hover {
+  background-color: rgb(104, 140, 238) !important;
+  color: white;
+  transition: 0.4s ease;
+}
+.small-card .card:hover h5,
+.small-card .card:hover h6,
+.small-card .card:hover p,
+.small-card .card:hover li {
+  color: #fff ;
+}
+
+/* .icon-circle img {
+  transition: transform 0.8s ease;
+}
+.small-card .card:hover .icon-circle img {
+  transform: rotate(-360deg);
+} */
+
+
+.doctor-card img {
+  transition: transform 0.5s ease;
+}
+
+ .docotr-card img:hover{
+  transform: scale(1.05);
+  /* filter: brightness(1.1);
+  box-shadow: 0 -40px 60px rgba(255, 255, 255, 0.4) inset, 
+              0 -10px 30px rgba(255, 255, 255, 0.25); */
+}
+
+.doctor-content:hover {
+  color: #00b4ff;
+}
+
+/* doctor-profile */
+
+body {
+  overflow-x: hidden;
+}
+
+.dropdown-menu-start {
+  left: auto !important;
+  right: 0 !important;
+}
+
+.star{
+  font-size: 0.5rem;
+  padding-top: 6px;
+}
+
+.button-sub{
+  margin-left: 10%;
+}
+
+/* doctor-sitting */
+.blue-circle{
+  font-size: 8px;
+}
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
+  display: block !important;
+}
+
+.owl-nav{
+  position: absolute;
+    bottom: 100%;
+    right: 0;
+    justify-content: space-between;
+    padding:0 15px;
+}
+
+
+/* Basic page style for testing */
+body {
+  min-height: 2000px;
+  font-family: Arial, sans-serif;
+}
+
+/* Scroll To Top Button */
+#scrollToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease, transform 0.3s ease;
+  z-index: 999;
+}
+
+#scrollToTop i {
+  position: absolute;
+  font-size: 18px;
+  color: #0d6efd;
+  transition: transform 0.3s ease;
+}
+
+#scrollToTop:hover i {
+  transform: translateY(-4px);
+}
+
+.progress-ring {
+  transform: rotate(-90deg);
+}
+
+.progress-ring__circle {
+  transition: stroke-dashoffset 0.2s linear;
+  stroke-linecap: round;
+}
+
+#scrollToTop.show {
+  opacity: 1;
+  pointer-events: all;
+  transform: translateY(0);
+}

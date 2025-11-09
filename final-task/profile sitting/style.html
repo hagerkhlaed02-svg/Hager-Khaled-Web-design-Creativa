@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clinic</title>
+    <link rel="icon" type="image/png" href="../img/work-01.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Bootstrap Tags Input CSS -->
+    <!-- <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+        <div class="container py-2">
+            <a class="navbar-brand" href="#">
+                <img src="../img/logo.svg" alt="logo" width="120">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 bar-text">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" data-bs-toggle="dropdown">Home</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Main Page</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" data-bs-toggle="dropdown">Doctors</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Doctor Dashboard</a></li>
+                            <li><a class="dropdown-item" href="#">Appointments</a></li>
+                            <li><a class="dropdown-item" href="#">Patients List</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-primary" href="#" data-bs-toggle="dropdown">Patients</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Invoices</a></li>
+                            <li><a class="dropdown-item" href="#">Chat</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" data-bs-toggle="dropdown">Clinic</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Available Timing</a></li>
+                            <li><a class="dropdown-item" href="#">Reviews</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" data-bs-toggle="dropdown">Pharmacy</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Medicines</a></li>
+                            <li><a class="dropdown-item" href="#">Orders</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" data-bs-toggle="dropdown">Blog</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Articles</a></li>
+                            <li><a class="dropdown-item" href="#">News</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="right-side d-flex">
+                    <div class="dropdown me-5">
+                        <button class="btn border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-magnifying-glass fs-5"></i>
+                        </button>
+
+                        <ul class="dropdown-menu dropdown-menu-start p-3 shadow " style="min-width: 250px;">
+                            <li>
+                                <form class="d-flex">
+                                    <input type="text" class="form-control text-primary" placeholder="Search here...">
+                                    <button type="submit" class="btn btn-primary text-white px-3 ">search</button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <i class="fa-solid fa-bell pt-2 "></i>
+                        <i class="fa-solid fa-message p-2"></i> -->
+                </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="bg-primary bg-opacity-10">
+            <div class="container">
+                <div class="pt-5 d-flex justify-content-center align-items-center gap-2">
+                    <i class="fa-solid fa-house-chimney text-primary"></i>
+                    <i class="fa-solid fa-chevron-right text-muted "></i>
+                    <h5 class="text-muted">doctor</h5>
+                    <i class="fa-solid fa-chevron-right text-muted"></i>
+                    <h5>doctor profile</h5>
+                </div>
+                <div class="justify-content-center align-items-center d-flex pb-4">
+                    <h2 class="fw-bold"> Doctor profile</h2>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <!-- profile -->
+                <div class="profile col-lg-4 col-xl-3 border rounded-3">
+                    <div class="right-side">
+                        <div class="profile-detail d-flex mt-5 justify-content-center align-items-center">
+                            <a href="../img/blog-24.jpg" data-lightbox="doctor-gallery" data-title="Clinic Photo 1">
+                                <img src="../img/doctor-thumb-02-Cbbh6L4C.jpg" class="rounded-circle" width="95" alt="">
+                            </a>
+                        </div>
+                        <div class="docotr-info text-center">
+                            <h5>Dr Edalin Hendry</h5>
+                            <h6 class="text-muted ps-4">BDS, MDS - Oral & Maxillofacial Surgery</h6>
+                            <div class="d-flex text-center justify-content-center align-items-center">
+                                <div class="border rounded-2 d-flex p-1">
+                                    <div class="blue-circle">
+                                        <i class="fa-solid fa-circle text-primary pt-2"></i>
+                                    </div>
+                                    <h6 class="text-muted ps-1">Dentist</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-btn fw-bold ps-3">
+                            <p class="mb-0">Availability <span class="text-danger fs-5">*</span> </p>
+                            <div class="dropdown">
+                                <button class="btn btn-white border dropdown-toggle w-100 fw-semibold" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    I am Available Now </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">I am Available Now</a></li>
+                                    <li><a class="dropdown-item" href="#">NOT Available</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- list -->
+                        <div class="dashboard-list">
+                            <ul class="p-3 list-unstyled ">
+                                <li class="p-2"><a href="../dashboard/dashboard.html"
+                                        class="text-decoration-none text-dark">
+                                        <h6>Dashboard</h6>
+                                    </a></li>
+                                <li class="p-2">
+                                    <h6>Requests</h6>
+                                </li>
+                                <li class="p-2">
+                                    <h6>Appointments</h6>
+                                </li>
+                                <li class="p-2">
+                                    <h6>Available Timings</h6>
+                                </li>
+                                <li class="p-2">
+                                    <h6>My Patients</h6>
+                                </li>
+                                <li class="p-2">
+                                    <h6>Specialties & Services</h6>
+                                </li>
+                                <li class="p-2">
+                                    <h6>Accounts</h6>
+                                </li>
+                                <li class="p-2">
+                                    <h6>Invoices</h6>
+                                </li>
+                                <li class="p-2">
+                                    <h6>Payout Settings</h6>
+                                </li>
+                                <li class="p-2">
+                                    <h6>Message</h6>
+                                </li>
+                                <li class="bg-primary p-2 text-white rounded-2">
+                                    <h6>Profile Settings</h6>
+                                </li>
+                                <li class="p-2">
+                                    <h6>Social Media</h6>
+                                </li>
+                                <li class="p-2">
+                                    <h6>Change Password</h6>
+                                </li>
+                                <li class="p-2">
+                                    <h6>Logout</h6>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- left-side-form -->
+                <div class="col-lg-8 col-xl-9">
+                    <!-- tittle -->
+                    <div class="tittle">
+                        <h3 class="fw-bold">Profile Settings</h3>
+                        <hr>
+                    </div>
+                    <!-- bar -->
+                    <div class="bar shadow-sm ps-3 p-2 rounded-3">
+                        <ul class="nav nav-pills mb-3 gap-2" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active text-white border" id="pills-home-tab"
+                                    data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
+                                    aria-controls="pills-home" aria-selected="true">Basic Details</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link border" id="pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile" type="button" role="tab"
+                                    aria-controls="pills-profile" aria-selected="false">Experience</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link border" id="pills-contact-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-contact" type="button" role="tab"
+                                    aria-controls="pills-contact" aria-selected="false">Education</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link border" id="pills-Awards-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-Awards" type="button" role="tab" aria-controls="pills-Awards"
+                                    aria-selected="false" disabled>Awards</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link border" id="pills-Insurances-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-Insurances" type="button" role="tab"
+                                    aria-controls="pills-Insurances" aria-selected="false" disabled>Insurances</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link border" id="pills-Clinics-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-Clinics" type="button" role="tab"
+                                    aria-controls="pills-Clinics" aria-selected="false" disabled>Clinics</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link border" id="pills-Business-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-Business" type="button" role="tab"
+                                    aria-controls="pills-Business" aria-selected="false" disabled>Business
+                                    Hours</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- tabs -->
+                    <div class="tab-content" id="pills-tabContent">
+                        <!-- Basic Details -->
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab" tabindex="0">
+                            <div class="profile pt-3 ps-3">
+                                <h5>Profile</h5>
+                                <!-- image-upload -->
+                                <div class="mb-4 border p-4 rounded-2">
+
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="rounded-3 bg-light p-3 me-3 border"
+                                            style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                                fill="currentColor" class="bi bi-file-earmark-image"
+                                                viewBox="0 0 16 16">
+                                                <path d="M6.502 7.708a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v6.5h-4z" />
+                                                <path
+                                                    d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM3 14V2a1 1 0 0 1 1-1h5.5v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z" />
+                                                <path d="M11 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0z" />
+                                            </svg>
+                                        </div>
+
+                                        <div>
+                                            <label class="form-label d-block fw-bold ">Profile Image</label>
+
+                                            <a href="#" class="text-decoration-none"
+                                                onclick="document.getElementById('profileImageInput').click(); return false;">
+                                                Upload New
+                                            </a>
+                                            <a href="#" class=" ps-3 text-danger text-decoration-none">
+                                                Remove
+                                            </a>
+
+                                            <input type="file" class="form-control d-none" id="profileImageInput"
+                                                name="profile_image" accept=".jpg,.png,.svg" />
+
+                                            <div class="form-text text-muted fw-semibold">
+                                                Your Image should Below *4 MB, Accepted format **jpg, png, svg*.
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- form -->
+                                <div class="col-md-12 border rounded-2 p-4">
+                                    <form id="infoForm" class="d-flex flex-column">
+                                        <fieldset>
+                                            <legend class="fw-bold fs-5">Information</legend>
+
+                                            <div class="d-flex gap-5 flex-wrap">
+                                                <div class="mb-3 flex-fill input-wrapper">
+                                                    <div class="d-flex">
+                                                        <label for="firstName" class="form-label">First Name</label>
+                                                        <i class="star fa-solid fa-star-of-life text-danger ms-1"></i>
+                                                    </div>
+                                                    <input type="text" id="firstName" class="form-control bg-white"
+                                                        placeholder="first name">
+                                                    <i class="icon" id="firstNameIcon"></i>
+                                                    <div class="text-danger small mt-1" id="firstNameError"></div>
+                                                </div>
+
+                                                <div class="mb-3 flex-fill input-wrapper">
+                                                    <div class="d-flex">
+                                                        <label for="lastName" class="form-label">Last Name</label>
+                                                        <i class="star fa-solid fa-star-of-life text-danger ms-1"></i>
+                                                    </div>
+                                                    <input type="text" id="lastName" class="form-control bg-white"
+                                                        placeholder="last name">
+                                                    <i class="icon" id="lastNameIcon"></i>
+                                                    <div class="text-danger small mt-1" id="lastNameError"></div>
+                                                </div>
+
+                                                <div class="mb-3 flex-fill input-wrapper">
+                                                    <div class="d-flex">
+                                                        <label for="displayName" class="form-label">Display Name</label>
+                                                        <i class="star fa-solid fa-star-of-life text-danger ms-1"></i>
+                                                    </div>
+                                                    <input type="text" id="displayName" class="form-control bg-white"
+                                                        placeholder="display name">
+                                                    <i class="icon" id="displayNameIcon"></i>
+                                                    <div class="text-danger small mt-1" id="displayNameError"></div>
+                                                </div>
+                                            </div>
+
+                                            <div class="d-flex gap-5 flex-wrap">
+                                                <div class="mb-3 flex-fill input-wrapper">
+                                                    <div class="d-flex">
+                                                        <label for="designation" class="form-label">Designation</label>
+                                                        <i class="star fa-solid fa-star-of-life text-danger ms-1"></i>
+                                                    </div>
+                                                    <input type="text" id="designation" class="form-control bg-white"
+                                                        placeholder="designation">
+                                                    <i class="icon" id="designationIcon"></i>
+                                                    <div class="text-danger small mt-1" id="designationError"></div>
+                                                </div>
+
+                                                <div class="mb-3 flex-fill input-wrapper">
+                                                    <div class="d-flex">
+                                                        <label for="phone" class="form-label">Phone Number</label>
+                                                        <i class="star fa-solid fa-star-of-life text-danger ms-1"></i>
+                                                    </div>
+                                                    <input type="text" id="phone" class="form-control bg-white"
+                                                        placeholder="phone number">
+                                                    <i class="icon" id="phoneIcon"></i>
+                                                    <div class="text-danger small mt-1" id="phoneError"></div>
+                                                </div>
+
+                                                <div class="mb-3 flex-fill input-wrapper">
+                                                    <div class="d-flex">
+                                                        <label for="email" class="form-label">Email Address</label>
+                                                        <i class="star fa-solid fa-star-of-life text-danger ms-1"></i>
+                                                    </div>
+                                                    <input type="text" id="email" class="form-control bg-white"
+                                                        placeholder="email address">
+                                                    <i class="icon" id="emailIcon"></i>
+                                                    <div class="text-danger small mt-1" id="emailError"></div>
+                                                </div>
+                                            </div>
+
+                                            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                                        </fieldset>
+                                    </form>
+                                    <!-- input-tag -->
+                                    <!-- <div class=" p-4 mt-3 ms-3">
+                                        <h5 class="fw-bold mb-3">Skills / Tags</h5>
+                                        <input type="text" data-role="tagsinput" placeholder="Add skills"
+                                            class="form-control">
+                                    </div> -->
+                                </div>
+                            </div>
+
+
+
+                            <!-- Memberships Section -->
+                            <div class="col-md-12 border rounded-2 p-4 mt-3 ms-3">
+                                <div class="card-body">
+                                    <h5 class="fw-bold mb-4">Memberships</h5>
+
+                                    <form>
+                                        <div class="row align-items-center mb-3">
+                                            <div class="col-md-5">
+                                                <label class="form-label fw-semibold">Title <span
+                                                        class="text-danger">*</span></label>
+                                                <input type="text" class="form-control" placeholder="Add Title">
+                                            </div>
+                                            <div class="col-md-5">
+                                                <label class="form-label fw-semibold bg-white">About
+                                                    Membership</label>
+                                                <div class="d-flex">
+                                                    <input type="text" class="form-control bg-white col-md-10"
+                                                        placeholder="">
+                                                    <div class="text-end  col-md-2 align-items-end delete-btn ps-5">
+                                                        <a href="#"
+                                                            class="text-danger fw-semibold text-decoration-none ps-5">Delete</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="text-end">
+                                            <a href="#" class="text-primary fw-semibold text-decoration-none">Add
+                                                New</a>
+                                        </div>
+
+                                        <div class="mt-4 d-flex justify-content-end gap-2">
+                                            <button class="btn bg-light text-dark rounded-pill px-4 py-2 mt-3">
+                                                Cancel</button>
+                                            <button class="btn gradiant text-white rounded-pill px-4 py-2 mt-3">
+                                                Save Changes</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                        tabindex="0">...</div> -->
+
+                    <!-- Education-tab -->
+                    <!-- <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                        tabindex="0">
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer pt-5">
+        <div class="bg-primary bg-opacity-10 mt-5">
+            <div class="container">
+                <div class="row gy-5 pt-5">
+                    <div class="col-lg-6  col-md-12 d-flex justify-content-between">
+                        <div class="d-flex ps-2 gap-5">
+
+                            <div class="company">
+                                <h5 class="fw-bold mb-3">Company</h5>
+                                <ul class="list-unstyled text-muted">
+                                    <li class="mb-2">Home</li>
+                                    <li class="mb-2">Specialities</li>
+                                    <li class="mb-2">Video Consult</li>
+                                </ul>
+                            </div>
+
+                            <div class="specialities">
+                                <h5 class="fw-bold mb-3">Specialities</h5>
+                                <ul class="list-unstyled text-muted">
+                                    <li class="mb-2">Neurology</li>
+                                    <li class="mb-2">Cardiologist</li>
+                                    <li class="mb-2">Dentist</li>
+                                </ul>
+                            </div>
+                            <div class="specialities">
+                                <h5 class="fw-bold mb-3">Specialities</h5>
+                                <ul class="list-unstyled text-muted">
+                                    <li class="mb-2">Neurology</li>
+                                    <li class="mb-2">Cardiologist</li>
+                                    <li class="mb-2">Dentist</li>
+                                </ul>
+                            </div>
+
+                            <div class="specialities">
+                                <h5 class="fw-bold mb-3">Specialities</h5>
+                                <ul class="list-unstyled text-muted">
+                                    <li class="mb-2">Neurology</li>
+                                    <li class="mb-2">Cardiologist</li>
+                                    <li class="mb-2">Dentist</li>
+                                </ul>
+                            </div>
+
+                            <div class="specialities">
+                                <h5 class="fw-bold mb-3">Specialities</h5>
+                                <ul class="list-unstyled text-muted">
+                                    <li class="mb-2">Neurology</li>
+                                    <li class="mb-2">Cardiologist</li>
+                                    <li class="mb-2">Dentist</li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 button-sub">
+                        <h6 class="fw-bold mb-3">Join Our Newsletter</h6>
+                        <form class="d-flex flex-column flex-sm-row gap-2">
+                            <input type="email" class="form-control flex-grow-1" placeholder="Enter your email">
+                            <button type="submit" class="btn bg-primary text-white py-2">
+                                submite
+                            </button>
+                        </form>
+                        <div class="d-flex pt-3 text-muted gap-2">
+                            <div class="d-flex align-items-center ps-1 bg-primary bg-opacity-10 text-muted rounded-circle"
+                                style="width:40px; height:40px;">
+                                <i class="fa-brands fa-instagram ps-2"></i>
+                            </div>
+                            <div class="d-flex align-items-center bg-primary bg-opacity-10 text-muted rounded-circle"
+                                style="width:40px; height:40px;">
+                                <i class="fa-brands fa-facebook-f ps-3"></i>
+                            </div>
+                            <div class="d-flex align-items-center  bg-primary bg-opacity-10 text-muted rounded-circle"
+                                style="width:40px; height:40px;">
+                                <i class="fa-brands fa-twitter ps-3"></i>
+                            </div>
+                            <div class="d-flex align-items-center  bg-primary bg-opacity-10 text-muted rounded-circle"
+                                style="width:40px; height:40px;">
+                                <i class="fa-brands fa-linkedin-in ps-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bar bg-primary bg-opacity-25">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center flex-wrap p-2">
+                    <div class="col-md-6">
+                        <p class="mb-0">Copyright © 2025 Doccure. All Rights Reserved</p>
+                    </div>
+                    <div class="right-side col-md-6 text-md-end">
+                        <p class="mb-0">Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
